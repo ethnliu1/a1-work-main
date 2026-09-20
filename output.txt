@@ -1,2 +1,41 @@
-here!
+$ pwd
+/home/adminethan0101/a1-work-main
+
+$ ls -la
+total 40
+drwxr-xr-x. 3 adminethan0101 majors  4096 Sep 19 19:47 .
+drwx------. 5 adminethan0101 majors  4096 Sep 19 19:35 ..
+drwxr-xr-x. 8 adminethan0101 majors  4096 Sep 19 19:47 .git
+-rwxr-xr-x. 1 adminethan0101 majors 18096 Sep 19 19:47 hello
+-rw-r--r--. 1 adminethan0101 majors   170 Sep 19 19:47 hello.c
+-rw-r--r--. 1 adminethan0101 majors     7 Sep 19 19:32 output.txt
+-rw-r--r--. 1 adminethan0101 majors   102 Sep 19 19:34 README.md
+
+$ mkdir testdir
+$ cd testdir
+
+$ touch notes.txt
+$ echo "hello from bash" > notes.txt
+$ echo "second line here" >> notes.txt
+
+$ cat notes.txt
+hello from bash
+second line here
+
+$ cp notes.txt notes_backup.txt
+$ mv notes_backup.txt renamed_backup.txt
+
+$ sort notes.txt
+hello from bash
+second line here
+
+$ whoami
+adminethan0101
+
+$ grep "hello" notes.txt
+hello from bash
+
+$ nl notes.txt
+     1  hello from bash
+     2  second line here
 
